@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title> my website </title>
+</head>
+<body>
+
+<style>
+  p{background-image: url('4e10bc808e07469aad85528b6af0216b.jpg');}
+</style>
+
+
+<header>
+<h1> Its a cult </h1>
+</header>
+
+<section>  <!-- this is the heading 2 section -->
+   <h2> Fanfiction </h2>
+   <p> It is a cult with willing followers </p>
+  <h3> I have joined said cult. I love it here</h3>
+</section>
+
+<section>
+
+<img src="pictures/smsampleimg.gif" width="150" height="150" alt="small sample image" />
+
+<img src="pictures/ao3" width="198" height="180" />
+
+</section>
+
+
+<h4>
+  movie rating
+</h4>
+  <p> popularity <progress value="8" max="10"> </progress></p>
+  <p> folowing <progress value="10" max="10"> </progress></p>
+
+
+<p>
+  Am I wrong? <a href="https://www.youtube.com/watch?v=M5V_IXMewl4"> vibe </a></p>
+
+
+</body>
+  </html>
