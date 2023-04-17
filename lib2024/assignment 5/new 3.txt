@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--LINK CSS FILE-->    
+    <link rel="stylesheet" href="style.css" />
+    <title>Temperature Converter App</title>
+  </head>
+  <link rel="stylesheet1" href="style.css" />
+  <script src="./script.js"></script>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<div class="header">Cool Website Name</div>
+    
+<h1>You should give me this on DayMap 😉</h1>
+<div>
+<img src="https://www.technewsera.com/wp-content/uploads/2019/06/A-Essay-Writing-730x438.jpg">
+<h2>In case it doesn't work for whatever reason, its just an A+</h2>
+</div>
+  
+<div class="btn button1">Sign in</div>
+<div class="btn button2">Join</div>
+<div class="btn button3">About</div>
+<div class="btn button4">FAQ</div>
+
+<div class="content signin">
+  <form action="Log-In" method="GET">
+    <span class="user">User:</span><br>
+    <input type="text" name="user" class="userbox"><br><br>
+    <span class="password">Password:</span><br>
+    <input type="password" name="password" class="passwordbox"><br><br>
+    <input type="Submit" value="Sign in">
+    <button type="reset">Clear</button>
+  </form>
+</div>
+
+<div class="content join">
+    <form action="Join" method="GET">
+    <span class="user">User:</span><br>
+    <input type="text" name="user" class="userbox"><br><br>
+    <span class="email">Email:</span><br>
+    <input type="email" name="email" class="emailbox"><br><br>
+    <span class="password">Password:</span><br>
+    <input type="password" name="password" class="passwordbox"><br><br>
+    <input type="Submit" value="Create Account">
+    <button type="reset">Clear</button>
+  </form>
+</div>
+
+<div class="content about">
+  <h3>This Website is based entirely on testing and learning new functions for an assignment I have. Currently I am trying to make this a multi-page website. Alas, this is not simple and has absorbed many hours of my life. I will not falter though and shall continue to work on this page until I am finished!</h3>
+
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>

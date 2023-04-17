@@ -1,0 +1,405 @@
+/* 
+Brand Colors
+#DFCDD4
+#444E6B
+#9CA89C
+#090A0A
+#FEFDFC
+*/
+
+body {
+  background-color: #DFCDD4;
+  color: #090A0A;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+button.darkMode{
+  margin: 20px;
+}
+.dark-mode header{
+  background-color: black;
+}
+.dark-mode a{
+  color: white;
+}
+.dark-mode img{
+  background-color: white;
+}
+
+button, input[type=submit]{
+  display: block;
+	padding: 1rem;
+	border: none;
+}
+input[type="submit"]{
+  width: 90%;
+  margin: 0 auto;
+}
+input, label{
+  display: block;
+  font-size: 1rem;
+  font-family: bicyclette, serif;
+}
+label{
+  margin: 1rem 0 0.5rem 0;
+}
+input{
+  padding: 1rem 0.5rem;
+  margin: 0 auto 1rem auto;
+  width: calc(100% - 1rem);
+}
+#switcherButtons, #guessingGame{
+  padding: 1rem;
+  width: calc(100% - 2rem);
+  max-width: 1280px;
+}
+/* ----------------------Hero / Profile------------------ */
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(heroBackground.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* -------------------------- Nav Bar --------------- */
+li, a, button {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #DFCDD4;
+  font-family: bicyclette, serif;
+  font-size: 20px;
+  font-weight: 200;
+  font-style: normal;
+  
+  
+}
+header a {
+  color: #090A0A;
+}
+.logo  {
+  cursor: pointer;
+}
+.navbarItems{
+  list-style: none;
+}
+.navbarItems li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navbarItems li a{
+  transition: all 0.3s ease 0s;
+}
+.navbarItems li a:hover{
+  color: #9CA89C;
+}
+.heroContent{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+h1 {
+font-family: bicyclette,serif;
+font-weight: 700;
+font-style: normal;
+color: #090A0A;
+font-size: 40px;
+margin-bottom: 20px;
+}
+h3{
+  font-family: bicyclette,serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #090A0A;
+  font-size: 30px;
+  margin: 20px 0px 20px;
+}
+.profilePicture{
+  border-radius: 50px;
+  margin: 50px 80px 0px 10px;
+  text-align: right;
+  padding: 0;
+}
+.profilePicture img{
+  height: 250px;
+  width: auto;
+  border-radius: 150px;
+}
+
+/* -------------------------About Me--------------------- */
+.aboutMe{
+	padding-bottom: 2rem;
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	gap: 1rem;
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #444E6B;
+}
+.aboutMe h2{
+  grid-column: 1/-1;
+  font-family: bicyclette,serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #090A0A;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.aboutText{
+  width: 1130px;
+  max-width: 95%;
+  margin: auto 0;
+  display: flex;
+  align-items: left;
+  justify-content: space-around;
+}
+.currentItem{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  gap: 1rem;
+}
+.hiddenItem{
+  display: none;
+}
+.aboutMe button{
+  height: 40px;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+  align-self: center;
+  background-color: #9CA89C;
+  color: #090A0A;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.aboutMe img{
+  grid-row: 2/-1;
+  align-self: end;
+}
+/* .aboutMe h5{
+  grid-column: 2/-1;
+  align-self: end;
+} */
+#spy-about {
+  background-color: #444E6B;
+  display: inline-block;
+  padding: 40px;
+  object-fit: cover;
+
+}
+/* -------------------------Resume--------------------- */
+
+#resume{
+  text-align: right;
+}
+#resume img{
+  height: auto;
+  width: 550px;
+}
+/* -------------------------Stationary--------------------- */
+#stationary{
+  text-align: right;
+}
+#stationary img{
+  height: auto;
+  width: 550px;
+}
+/* -------------------------Business Card--------------------- */
+#businessCard{
+  text-align: right;
+}
+#businessCard img{
+  height: auto;
+  width: 550px;
+}
+/* -------------------------Contact--------------------- */
+
+#spy-contact {
+  background-color: #9CA89C;
+  padding: 40px;
+}
+#spy-contact button {
+  background-color: transparent;
+  border: none;
+  padding-top: 35px;
+}
+
+#spy-contact p{
+padding: 35px;
+}
+
+#spy-contact a{
+  color: #090A0A;
+  background-color: transparent;
+  
+}
+#spy-contact i {
+  font-size: 4rem;
+}
+h5{
+  margin: 0;
+}
+.socialMedia h5{
+/* flex-direction: column; */
+margin-bottom: 20px;
+}
+.socialMedia a {
+  margin-bottom: 20px;
+
+}
+.socialMedia button{
+  margin-bottom: 20px;
+
+}
+.contactForm{
+  width: 550px;
+  justify-content: space-around;
+  align-items: center;
+}
+.contactForm, .socialMedia{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* -------------------------Inspiration--------------------- */
+
+#spy-inspiration {
+  background-color: #DFCDD4;
+  padding: 40px;
+}
+#spy-inspiration {
+  text-align: center;
+}
+#carousel-example {
+  padding-top: 35px;
+} 
+.carousel-item img{
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption h5{
+  color: #FEFDFC;
+  text-shadow: 2px 0px 0px #444E6B;
+
+}
+.carousel-caption p{
+  color: #FEFDFC;
+  text-shadow: 2px 0px 0px #444E6B;
+
+}
+.carousel-caption i{
+  color: #FEFDFC;
+  text-shadow: 2px 0px 0px #444E6B;
+
+}
+/* -------------------------Guessing Game--------------------- */
+
+.screenReader{
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.message{
+  display: none;
+  color: #FEFDFC;
+  font-size: 12px;
+  margin: 0.5rem 0;
+  font-weight: 400;
+}
+.error{
+  font-size: 12px;
+  display: block;
+}
+.errorInput{
+  border: 1px solid #444E6B;
+}
+#ageGame{
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #9CA89C;
+}
+#ageGame div{
+  max-width: 800px;
+  margin: 0 auto;
+}
+#ageGame form{
+  width: 325px;
+  margin: 1rem auto;
+}
+#ageGame input{
+  display: inline-block;
+  width: 50px;
+}
+#ageGame label{
+  display: inline-block;
+  width: auto;
+}
+#ageGame #guessGame{
+  display: block;
+  width: auto;
+}
+#gameOutput{
+  text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+	width: 300px; 
+	margin: 0 auto;
+}
+#gameOutput span{
+	display: block;
+	width: 30px; 
+  height: 30px;
+	padding: 1rem;
+  background-color: #FEFDFC;
+  color: #090A0A;
+  border-radius: 50%;
+  margin: 0.5rem auto;
+}
+#ageGame button{
+  background-color: #090A0A;
+  color: #FEFDFC;
+}
+#gameMsg{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* -------------------------Foter--------------------- */
+
+.page-footer {
+  text-align: center;
+  color: #DFCDD4;
+  background-color: #444E6B;
+}
+.page-footer p{
+  
+  font-size: 16px;
+  font-weight: 600;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Cassandra H. Hirata</title>
+
+    <!-- My Custom CSS and Java Script -->
+	  <link href="cat.css" rel="stylesheet">
+	  <link rel="stylesheet" href="https://use.typekit.net/tqy0tpw.css">
+    <!-- end  -->
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  </head>
+  <body>
+    <main>
+      <section class="hero" id="spy-header">
+<!-- NavBar -->
+          <header>
+          <img class="logo" src="logo-black.png" height="40px" width="40px" alt="logo">
+            <nav id="navbar-spy" class="navbar" data-bs-spy="scroll" data-bs-target="#navbar-spy">
+              <ul class="navbarItems">
+                <li class="navItem">
+                  <a class="navLink" href="#spy-header">Home</a>
+                </li>
+                <li class="navItem">
+                  <a class="navLink" href="#spy-about">About</a>
+                </li>
+                <li class="navItem">
+                  <a class="navLink" href="#spy-contact">Contact</a>
+                </li>
+                <li class="navItem">
+                  <a class="navLink" href="#spy-inspiration">Inspirations</a>
+                </li>
+                <li class="navItem">
+                  <a class="navLink" href="#spy-game">Guessing Game!</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+
+
+      </div>
+
+  <!-- Resume / Portfolio / Business Card -->
+      <section id="switcherButtons">
+        <button id="btnResume" onclick="switcherButtons()">Resume</button>
+        <section id="resume" class="currentItem">
+          <img src="CassandraHirataResume2022.png" alt="Resume">
+        </section>
+        
+        <button id="btnStationary" onclick="switcherButtons()">Stationary</button>
+        <section id="stationary" class="hiddenItem">
+          <img src="Untitled_Artwork 6.png" alt="Stationary">
+        </section> 
+
+        <button id="btnBusinessCard" onclick="switcherButtons()">Business Card</button>
+        <section id="businessCard" class="hiddenItem">
+          <img src="BusinessCard.png" alt="Cassandra H. Hirata Business Card front with logo">
+          <img src="BusinessCard1.png" alt="Cassandra H. Hirata, Web Developer UX ">
+        </section>
+  </section>
+ 
+  <!-- Inspiration Section -->
+  
+      <h2>Guess how old Nishka is?</h2>
+      <p>Enter a number between 1 and 10 in the box below and click the button to play! If your number matches, you guessed her corect age as of 2023!</p>
+      <form>
+        <label for="numGuess2">Enter Number Between 1 and 10:</label>
+        <span class="message">Please enter a number from 1 to 10</span>
+        <input type="number" name="numGuess" id="numGuess">
+        <input type="submit" name="guessGame" id="guessGame" value="Play the Game!">
+      </form>
+      <section id="gameDisplay">
+        <h3 class="screenReader">Guess a Number!</h3>
+        <ul id="gameOutput">
+          <li id="userNum"><span></span>Your Guess</li>
+          <li id="correctAge"><span></span>Correct Age!</li>
+        </ul>
+        <p id="gameMsg"></p>
+      </section>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Footer section -->
+<footer class="page-footer"><p>&copy;Cassandra Hirata 2021</p></footer>
+
+  <!-- Javascript -->
+  <script src="cat.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

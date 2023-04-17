@@ -1,0 +1,90 @@
+/*style.css */
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 80px;
+  background: black;
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  background: linear-gradient(-90deg, #eb09a0, #e840f7, #9721db, #1222cc, #1fcbed, #00ff00, #91ff00, #fffb00, #f0910c, #ff0000);
+	background-size: 400% 400%;
+	animation: Oliver 30s ease infinite;
+}
+
+@keyframes Oliver {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.btn {
+  box-sizing: border-box;
+  background-color: black;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1em 2.8em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  width: 160px;
+  border-color: #8c0ac4;
+  color: #111111;
+  box-shadow: 0 0 40px 40px #8c0ac4 inset, 0 0 0 0 #8c0ac4;
+  transition: all 150ms ease-in-out;
+  }
+
+.btn:hover {
+    color: #b514fa;
+    outline: 0;
+    box-shadow: 0 0 10px 0 #8c0ac4 inset, 0 0 10px 4px #8c0ac4;
+  }
+
+h1 {
+  color: white;
+  text-allign: center;
+}
+
+h2 {
+  color: white;
+  text-allign: center;
+}
+
+h3 {
+  color: white;
+  text-allign: center;
+}
+
+.content {
+  text-allign: center;
+}
+
+.user {
+  color: white;
+}
+
+.password {
+  color: white;
+}
+
+.email {
+  color: white;
+}
